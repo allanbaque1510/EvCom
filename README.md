@@ -4,5 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 ### `Dependencias usadas:`
- `Bootstrap, firebase, reactstrap, react-router-dom`
+ Bootstrap, firebase, reactstrap, react-router-dom
+
+### `Informacion del programa:`
+Se trata de un sitio web de informacion creado con react, y una base de datos creada con firebase donde se utiliza firestore para el mapeo de datos dentro de la pagina.
 
