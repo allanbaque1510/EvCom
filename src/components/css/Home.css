@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.imga{
+    width: 100%;
+    top: 80%;
+    left: 50%;
+    filter: blur(3px);
+    border-radius: 20px;
+}
+
+.catalg{
+
+    display: block;
+    color: azure;
+    background-color: crimson;
+    padding: 15px;
+    padding-inline: 20px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.catalg:hover{
+        text-decoration:none;
+        background-color: azure;
+        color: crimson;
+        font-weight:bold;
+        font-size: 30px;
+        transition: all .3s;
+}
+.title-evcom{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: cornsilk;
+}
+.txt-pr{
+    font-family: 'Dancing Script', cursive;
+    color: cornsilk;
+}
+.ima2{
+    display: none;
+}
+
+@media screen and (max-width:1024px) {
+.imga{
+    display: none;
+}
+.ima2{
+    display: flex;
+    width: 100%;
+    top: 80%;
+    left: 50%;
+    filter: blur(3px);
+    border-radius: 20px;
+}
+.centrado{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+}
+}
+
+@media screen and (max-width:558px) {
+.contenedor{
+    margin-top: 50px;
+}
+
+
+    
+}
+@media screen and (max-width:361px) {
+    .contenedor{
+        margin-top: 50px;
+    }
+    .catalg{
+        padding-inline: 1px;
+        padding: 1px;
+    }
+    
+
+    }
+@media screen and (max-width:569px) {
+       
+.centrado{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+}
+.catalg{
+    margin-top: 50%;
+    font-size: 40px;
+    padding-inline: 40px;
+    margin-inline: 0px;
+}
+.imga{
+    border-radius: 0px;
+    filter: blur(2.5px);
+}
+            
+        }
+@media screen and (max-width:569px){
+    .catalg{
+     
+        font-size: 22px;
+        
+    }
+}

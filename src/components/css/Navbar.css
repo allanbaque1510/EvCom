@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+nav{
+    background-color: rgb(10, 14, 24);
+    box-shadow: inset 0px -31px 50px -49px rgb(4, 45, 78); 
+}
+
+h2{
+    font-size: 30px;
+}
+.navbar-nav{
+    margin-left: 30px;
+}
+.Link-h:hover{
+    text-decoration: none;
+}
+.evcom{
+    color: seashell;
+    letter-spacing: 2px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.laa{
+    color: darkgray;
+    border-radius: 3px;
+    margin-left: 2px;
+    font-size: 20px;
+}
+.laa:hover{
+    color: rgb(238, 231, 231);
+    background-color: rgb(197, 65, 92);
+}
+.btn_menu{
+    color: rgb(215, 248, 238);
+    display: none;
+    font-size: 22px;
+}
+.res_active{
+    display: none;
+}
+
+
+@media screen and (max-width:577px){
+.btn_menu{
+    display: inline-flex;
+}
+.f{
+    display: none;
+}
+.res_active{
+    border-radius: 4px;
+    display:block;
+    background-color: rgb(197, 65, 92);
+    text-align: center;
+}
+.desactive{
+    display: none;
+}
+.laa{
+    font-size: 25px;
+}
+
+
+}

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav&display=swap');
+.body{
+    margin-top: 0;
+    
+}
+
+.namepr{
+    margin-top: 15px;
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(8, 8, 8);
+}
+.description{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(139, 139, 141);
+}
+.cost{
+    
+    font-weight: bold;
+    font-size: 20px;
+    display: flexbox;
+    
+}
+.xunidad{
+    font-family: 'Yantramanav', sans-serif;
+    color: rgb(189, 38, 209);
+}
+.xmayor{
+    display:content;
+    float: left;
+    width: 50%;
+    font-size: 20px;
+    padding-bottom: 5px;
+    font-family: 'Yantramanav', sans-serif;
+    padding-left: 6px;
+    color: rgb(8, 163, 42);
+}
+.card{
+    border-radius: 20px !important;
+}
+
+.precio1{
+    display:content;
+    float: right;
+    width: 50%;
+    font-size: 20px;
+    font-family: 'Rajdhani', sans-serif;
+}
+.precio2{
+    display:content;
+    float: right;
+    width: 50%;
+    font-size: 20px;
+    margin-top: 15px;
+    font-family: 'Rajdhani', sans-serif;
+}
+.carrito{
+    font-size: 27px;
+    margin-left: 8px;
+}
+.asesores{
+    background-color: rgb(119, 29, 29);
+    color: honeydew;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.catg{
+    background-color: rgb(252, 249, 249);
+}
+.txtcatg{
+    color: rgb(255, 255, 255);
+    padding-right: 10px;
+    
+}
+.contselect{
+    background-color: rgb(218, 53, 67) !important;
+    padding-right: 30px !important;
+    border-radius: 10px !important;
+   
+}
+.imag-pr{
+    padding: 10px;
+    border-radius: 20px;
+}
+.contselect:focus{
+    background-color: aliceblue !important;
+    color: rgb(218, 53, 67) !important;
+    text-shadow:
+		0 0 5px rgb(214, 90, 101),
+		0 0 8px rgb(218, 53, 67);
+   
+}
+.s1{
+    color: green;
+    border-radius: 0px;
+    background-color: white;
+    text-align: center;
+    margin-right: -50%;
+    margin-left: 0%;
+}
+.s2{
+    color: blue;
+    border-radius: 0px;
+    background-color: white;
+}
+
+
+@media screen and (max-width:992px) {
+.imag-pr{
+     width: 190px;
+}
+.fa-coins{
+    display: none;
+}
+}
+
+
+@media screen and (max-width:767px){
+.imag-pr{
+    width: 250px;
+}
+.fa-coins{
+    display: contents;
+}
+.card{
+margin-inline: 90px;
+}
+.namepr{
+    font-size: 20px;
+}
+
+}
+@media screen and (max-width:455px){
+.imag-pr{
+    width: 200px;
+}
+.card{
+    margin-inline: 50px;
+}
+}
+@media screen and (max-width:324px){
+.fa-coins{
+    display: none;
+}
+}

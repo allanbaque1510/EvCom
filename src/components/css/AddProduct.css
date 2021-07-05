@@ -1,0 +1,13 @@
+.body{
+    margin-top: 60px;
+}
+label{
+    color: white;
+}
+.txtagg{
+    color: white;
+    background-color: tomato;
+    padding: 5px;
+    padding-inline: 4px;
+    border-radius: 10px;
+}

@@ -1,0 +1,38 @@
+body{
+    background: rgb(23,27,33);
+background: linear-gradient(90deg, rgba(23,27,33,1) 8%, rgba(16,31,38,1) 27%, rgba(14,28,41,1) 47%, rgba(14,30,43,1) 67%, rgba(19,27,34,1) 100%);    
+}
+.body{
+    margin-top: 60px;
+}
+.cardwsp{
+    background: rgb(171,254,160);
+background: linear-gradient(331deg, rgba(171,254,160,1) 0%, rgba(45,228,27,1) 44%, rgba(114,212,0,1) 100%);
+    color: rgb(240, 241, 241);
+    box-shadow: inset ;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 30px 20px;
+}
+.dc:hover{
+    text-decoration: none;
+}
+.wht{
+    font-size: 100px;
+    text-shadow: -2px 2px 4px rgb(0, 155, 26);
+}
+.tx{
+    font-size: 20px;
+    text-shadow: -2px 2px 4px rgb(1, 54, 1);
+    margin: 10px;
+}
+.tx2{
+    font-size: 30px;
+    text-shadow: -2px 2px 4px rgb(3, 48, 2);
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.textoh{
+    color: azure;
+    font-family:'Dancing Script', cursive;
+}
