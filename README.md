@@ -4,5 +4,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 ### `Dependencias usadas:`
-### `Bootstrap, firebase, reactstrap, react-router-dom`
+ `Bootstrap, firebase, reactstrap, react-router-dom`
 
